@@ -60,6 +60,7 @@ public class CardController : MonoBehaviour {
 			objectPoolList.Add (cardClone);
 
 			yield return new WaitForSeconds (0.1f);
+			cardClone.GetComponent<SwipeController> ().enabled = true;
 		}
 	}
 		

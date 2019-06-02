@@ -27,6 +27,7 @@ public class UIManager  : MonoBehaviour
 	public GameObject WaitObject;
 
 	public Button restartButton;
+	public Button quiteButton;
 
 	public int knownCounter;
 	public int unknownCounter;
@@ -41,6 +42,12 @@ public class UIManager  : MonoBehaviour
 		restartButton.onClick.AddListener(()=>
 				{
 					RestartButtonAction();
+				});
+
+		quiteButton.onClick.RemoveAllListeners ();
+		quiteButton.onClick.AddListener(()=>
+				{
+					UnityEditor.SceneManagement.EditorSceneManager.LoadSceneAsync ("Loader");
 				});
 	}
 	

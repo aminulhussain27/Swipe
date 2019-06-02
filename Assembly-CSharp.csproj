@@ -56,13 +56,13 @@
      <Compile Include="Assets\Assets\Plugins\LeanTween\LeanTween.cs" />
      <Compile Include="Assets\Assets\Plugins\LeanTween\LTDescr.cs" />
      <Compile Include="Assets\Assets\Plugins\LeanTween\LTDescrOptional.cs" />
-     <Compile Include="Assets\Assets\Scripts\Controllers\CardBehaviorController.cs" />
      <Compile Include="Assets\Assets\Scripts\Controllers\CardController.cs" />
      <Compile Include="Assets\Assets\Scripts\Controllers\SwipeController.cs" />
      <Compile Include="Assets\Assets\Scripts\Other\FPSDisplay.cs" />
+     <Compile Include="Assets\Assets\Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\HeroUpgradeSessionData.cs" />
+     <Compile Include="Assets\Loader.cs" />
      <Compile Include="Assets\PlayerProgressSessionData.cs" />
-     <Compile Include="Assets\UIManager.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
