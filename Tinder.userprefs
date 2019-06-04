@@ -1,35 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\UI\UIManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DynamicLayout\SourceCode\GameManager.cs">
     <Files>
-      <File FileName="Assets\Loader.cs" Line="34" Column="3" />
-      <File FileName="Assets\Assets\Scripts\UI\UIManager.cs" Line="48" Column="14" />
+      <File FileName="Assets\CardAndSwipe\Scripts\Other\Loader.cs" Line="40" Column="43" />
+      <File FileName="Assets\DynamicLayout\SourceCode\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\DynamicLayout\SourceCode\CountryData.cs" Line="1" Column="1" />
+      <File FileName="Assets\DynamicLayout\SourceCode\DynamicLayoutUI.cs" Line="35" Column="41" />
+      <File FileName="Assets\CardAndSwipe\Plugins\LeanTween\LeanAudio.cs" Line="1" Column="1" />
+      <File FileName="Assets\CardAndSwipe\Scripts\UI\UIManager.cs" Line="61" Column="46" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Tinder" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="UI" expanded="True">
-                    <Node name="UIManager.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="Tinder" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\anonymous\Documents\GitHub\Tinder\Assets\Scenes\Outside.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

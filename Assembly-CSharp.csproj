@@ -51,18 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Plugins\LeanTween\LeanAudio.cs" />
-     <Compile Include="Assets\Assets\Plugins\LeanTween\LeanTest.cs" />
-     <Compile Include="Assets\Assets\Plugins\LeanTween\LeanTween.cs" />
-     <Compile Include="Assets\Assets\Plugins\LeanTween\LTDescr.cs" />
-     <Compile Include="Assets\Assets\Plugins\LeanTween\LTDescrOptional.cs" />
-     <Compile Include="Assets\Assets\Scripts\Controllers\CardController.cs" />
-     <Compile Include="Assets\Assets\Scripts\Controllers\SwipeController.cs" />
-     <Compile Include="Assets\Assets\Scripts\Other\FPSDisplay.cs" />
-     <Compile Include="Assets\Assets\Scripts\UI\UIManager.cs" />
-     <Compile Include="Assets\HeroUpgradeSessionData.cs" />
-     <Compile Include="Assets\Loader.cs" />
-     <Compile Include="Assets\PlayerProgressSessionData.cs" />
+     <Compile Include="Assets\CardAndSwipe\Plugins\LeanTween\LeanAudio.cs" />
+     <Compile Include="Assets\CardAndSwipe\Plugins\LeanTween\LeanTest.cs" />
+     <Compile Include="Assets\CardAndSwipe\Plugins\LeanTween\LeanTween.cs" />
+     <Compile Include="Assets\CardAndSwipe\Plugins\LeanTween\LTDescr.cs" />
+     <Compile Include="Assets\CardAndSwipe\Plugins\LeanTween\LTDescrOptional.cs" />
+     <Compile Include="Assets\CardAndSwipe\Scripts\Controllers\CardController.cs" />
+     <Compile Include="Assets\CardAndSwipe\Scripts\Controllers\SwipeController.cs" />
+     <Compile Include="Assets\CardAndSwipe\Scripts\Other\Loader.cs" />
+     <Compile Include="Assets\CardAndSwipe\Scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\DynamicLayout\SourceCode\CountryData.cs" />
+     <Compile Include="Assets\DynamicLayout\SourceCode\DynamicLayoutUI.cs" />
+     <Compile Include="Assets\DynamicLayout\SourceCode\GameManager.cs" />
+     <Compile Include="Assets\DynamicLayout\SourceCode\SessionSaveData.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
